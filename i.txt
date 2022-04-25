@@ -1,0 +1,9 @@
+bb340900054d96
+3fedbfb
+us-cdbr-east-05.cleardb.net
+heroku_afb59d263212636?reconnect=true
+
+heroku config:add APP_DATABASE='heroku_afb59d263212636' -a rails-docker-au
+heroku config:add APP_USERNAME='bb340900054d96' -a rails-docker-au
+heroku config:add APP_PASSWORD='3fedbfb' -a rails-docker-au
+heroku config:add APP_HOST='us-cdbr-east-05.cleardb.net' -a rails-docker-au
